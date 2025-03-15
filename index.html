@@ -6,9 +6,24 @@
     <title>Snake Game</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAActJREFUWEftlj1Ow0AQhd/sOkKREFIqJA7AEeAGHIFbcA9OQM0ROAIFQoqUBClShO3dYS2vvfZu1j8JDSCPFCn2zryZN/NmLWHHH9px/fgHsG0H3NQBAD4BfGTr3gDcA/j0oW/dgQTgK1PABfAM4B1AoZ9zAK8AzgCcAHgE8J0B2QWABHCnN08BlAB+kyLXAApVXGUAEsQAwE0GYlcAEoRoTwFIAJcAhlrxOCPXhPFYHRirA0YXYgBxB0T7QgAUqF8pEe8AHgAMATxpGK4AXAI4VBAGwlyfAXBBxABEe0oAg0z7pKAE8KDuDAAMtBMxAKJ9JYBfXbwuQJJ+rOE5zYQ2B0C0JwUwVLWTTJFRJgkNQAxAtKcEYBRLAUTFaAyAaE8KwFQ8yYQwBhADEO0pARj1kwKxYowBiPaUAIYZ9Q1ATwG0AET7SgBG/ZEWWxdADEC0pwRg1B9nQtgFEAMQ7SkBGPX7+lC1AcQARHtKAEb9qV7DLoAYgGhPCcCo39fXsQsgBiDaUwIw6p/ow9QGEAMQ7SkBGPWP9WlvA4gBiPaUAIz6Z/oraQKIAYj2lADMhyX3/2CXn9T/DvwBKhB4IaFPYy4AAAAASUVORK5CYII=">
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5880331394195978" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="game-container">
+        <!-- Ad unit before the game -->
+        <div class="ad-container-top">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5880331394195978"
+                 data-ad-slot="game-top-ad"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
         <div class="score-container">
             <div class="current-score">Score: <span id="score">0</span></div>
             <div class="high-score">High Score: <span id="highScore">0</span></div>
@@ -21,6 +36,19 @@
                 <button id="rightBtn">→</button>
             </div>
             <button id="downBtn">↓</button>
+        </div>
+
+        <!-- Ad unit after the game -->
+        <div class="ad-container-bottom">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5880331394195978"
+                 data-ad-slot="game-bottom-ad"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </div>
     </div>
     <script src="game.js"></script>
