@@ -18,6 +18,9 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .score-container {
@@ -36,6 +39,18 @@ body {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.ad-container-top,
+.ad-container-bottom {
+    width: 100%;
+    min-height: 90px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .mobile-controls {
@@ -79,5 +94,10 @@ body {
     
     .score-container {
         font-size: 1rem;
+    }
+
+    .ad-container-top,
+    .ad-container-bottom {
+        min-height: 50px;
     }
 } 
